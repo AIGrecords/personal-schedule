@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 52px;
+}
+
+.navbar
+{
+    box-shadow: 1px 2px 16px 1px #212529;
+}
+
+.jumbotron
+{
+    background: linear-gradient(to left, rgb(34, 34, 34), #212529);
+    background-size: cover;
+    color: white;
+    padding: 21px;
+}
+
+.btn-primary
+{
+    color: rgb(240, 204, 155);
+    background: transparent;
+    border: solid 1px rgb(238, 200, 147);
+}
+
+.btn-primary:hover
+{
+    color: rgb(58, 58, 58);
+    background: whitesmoke;
+    border: solid 1px #212529;
+}
+
+.btn-secondary
+{
+    color: rgb(240, 204, 155);
+    background: transparent;
+    border: solid 1px rgb(238, 200, 147);
+}
+
+.btn-secondary:hover
+{
+    color: white;
+    background: burlywood;
+    border: solid 1px burlywood;
+}
+
+.col-md-4
+{
+    padding: 9px;
+}
